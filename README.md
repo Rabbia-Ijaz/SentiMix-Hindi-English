@@ -1,5 +1,5 @@
 # SentiMix-Hindi-English
-Sentiment analysis on Hindi-English tweets dataset
+Sentiment analysis on Hindi-English tweets dataset (Kaggle Competition SentiMix-Hindi-English)
 
 ## The whole process involved certain steps:
 ### File Reading
@@ -36,4 +36,21 @@ Sentiment analysis on Hindi-English tweets dataset
     2,negative
 
     The file should not have any extra line at the end.
+    
+### Results
+    We implemented 4 different models
+    RandomForestClassifier()
+    CountVectorizer accuracy 66.27%
+
+    SGDClassifier()
+    CountVectorizer accuracy 61.90%
+    TfidfVectorizer accuracy 65.53%
+
+    LinearSVC()
+    CountVectorizer accuracy 59.53%
+    TfidfVectorizer accuracy 63.83%
+
+    MultinomialNB()
+    CountVectorizer accuracy 65.33%
+    TfidfVectorizer accuracy 65.50%
 
